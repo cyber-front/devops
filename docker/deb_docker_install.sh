@@ -62,3 +62,21 @@ echo "Verifying successful installation... you should see the versions of docker
 docker --version
 docker-compose --version
 
+# This next section performs some post-installation steps as listed on 
+# https://docs.docker.com/engine/install/linux-postinstall/
+
+# Add a docker group permitting members of that group to run docker
+# commands without sudo
+groupadd docker
+
+# From here, any user can be added to the docker group by the following
+# If you want to add the current user to the docker group, you can
+# uncomment the line below 
+# usermod -aG docker $USER
+
+# This next section enables the docker daemon to restart when the host
+# restarts.  If you prefer not to have that functionality, you can comment
+# these lines out before running the script
+systemctl enable docker.service
+systemctl enable containerd.service
+
