@@ -1,9 +1,10 @@
 #! /bin/bash
 
 # This script can be used to install Docker and Docker Compose onto
-# a Debian derived Linux host.  It puts into a script the instructions
-# available on on Docker's documentation page for installing Docker 
-# on Debian https://docs.docker.com/engine/install/debian/
+# a Debian derived Linux host using apt.  It puts into a script the
+# instructions available on on Docker's documentation page for
+# installing Docker on Debian based systems with apt
+# https://docs.docker.com/engine/install/debian/
 
 # This script requires root privileges to run
 

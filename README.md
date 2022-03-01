@@ -3,4 +3,4 @@ This project will include a number of scripts used to deploy devops tools onto v
 
 ## docker
 
-Currently contains a script for Debian based Linux distros to install docker and docker-compose.
+Currently contains a script for Debian based Linux distros using apt to install docker and docker-compose.
