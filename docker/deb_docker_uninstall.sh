@@ -19,7 +19,7 @@ systemctl disable docker.service
 rm -f /usr/bin/docker-compose
 rm -f /usr/local/bin/docker-compose
 
-apt uninstall -y docker-ce docker-ce-cli containerd.io
+apt remove -y docker-ce docker-ce-cli containerd.io
 
 rm -f /etc/apt/sources.list.d/docker.list
 rm -f /usr/share/keyrings/docker-archive-keyring.gpg
