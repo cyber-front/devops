@@ -6,6 +6,7 @@
 
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube_latest_amd64.deb
 dpkg -i minikube_latest_amd64.deb
+rm -f minikube_latest_amd64.deb
 
 # This section installs kubectl based on instructions available from 
 # https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/#install-using-native-package-management
