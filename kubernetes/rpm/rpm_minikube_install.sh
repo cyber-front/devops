@@ -5,7 +5,7 @@
 # https://minikube.sigs.k8s.io/docs/start/
 
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-latest.x86_64.rpm
-sudo rpm -Uvh minikube-latest.x86_64.rpm
+rpm -Uvh minikube-latest.x86_64.rpm
 rm -f minikube-latest.x86_64.rpm
 
 # This section installs kubectl based on instructions available from 
