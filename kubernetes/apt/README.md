@@ -5,7 +5,7 @@ Both minikube and kubectl are used to manage a single node Kubernetes deployment
 References for installing minkube and kubectl used in building these scripts are:
 
 [minikube install](https://minikube.sigs.k8s.io/docs/start/)
-[kubectl install](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/#install-using-native-package-management)
+[kubectl install](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux)
 
 Running either the installer or the uninstaller require admin rights and neither take any command line arguments.
 
